@@ -22,7 +22,7 @@ class Agent(BaseAgent):
         self.q: dict[tuple[int, int], float] = {}
 
         # q learning settings
-        self.alpha = 0.8
+        self.alpha = 0.5
         self.gamma = 0.9
         self.epsilon = 0.1
 
